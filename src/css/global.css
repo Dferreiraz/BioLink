@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Colors */
+    --color-text: #fff;
+    --color-text-secondary: #D1D5DB;
+    --bg-color: #000;
+    --color-card: #131A28;
+    --color-card-hover: #1E293B;
+    --color-line: #3B82F6;
+
+    /* Font Sizes */
+    --font-size-h1: 40px;
+    --font-size-h2: 24px;
+    --font-size-h2-about: 48px;
+    --font-size-h2-card: 16px;
+    --font-size-p: 16px;
+    --font-size-p-about: 18px;
+    --font-size-p-card: 14px;
+    --font-size-p-footer: 14px;
+    
+    /* Font Weights */
+    --font-weight-h1-span: 900;
+    --font-weight-h1: 600;
+    --font-weight-h2: 900;
+    --font-weight-h2-card: 700;
+
+    /* Font Family */
+    --font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
+
+    
