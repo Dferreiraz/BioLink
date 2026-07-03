@@ -53,7 +53,7 @@ header h1 span {
     border-top: 1px solid var(--color-line);
     padding-top: 98px;
     justify-content: center;
-
+    margin-bottom: 117px;
 }
 
 .about-content{
@@ -123,4 +123,21 @@ header h1 span {
     height: 610px;
     padding: 100px;
     margin-top: 30px;
+}
+
+/* Footer Section */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid var(--color-line);
+    padding: 20px;
+}
+
+footer p{
+    font-size: var(--font-size-p-footer);
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    font-weight: var(--font-weight-p-footer);
 }
